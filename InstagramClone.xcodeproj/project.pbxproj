@@ -33,6 +33,7 @@
 		5BC2E2882658A4BA00F83EC7 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E2872658A4BA00F83EC7 /* StorageManager.swift */; };
 		5BC2E28B2658A4D000F83EC7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E28A2658A4D000F83EC7 /* AnalyticsManager.swift */; };
 		5BC2E28E2658A4DF00F83EC7 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E28D2658A4DF00F83EC7 /* HapticsManager.swift */; };
+		5BC2E2A82658A97800F83EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC2E2A72658A97800F83EC7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		5BC2E2872658A4BA00F83EC7 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		5BC2E28A2658A4D000F83EC7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		5BC2E28D2658A4DF00F83EC7 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		5BC2E2A72658A97800F83EC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A95D6B4078CD304CCDAC31C8 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B276716C2C698F5DB1239EDE /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 		5BC2E24B2658826A00F83EC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5BC2E2A72658A97800F83EC7 /* GoogleService-Info.plist */,
 				5B3F275F26587E10003C03E7 /* Assets.xcassets */,
 				5B3F275626587E0E003C03E7 /* AppDelegate.swift */,
 				5B3F275826587E0E003C03E7 /* SceneDelegate.swift */,
@@ -273,6 +276,7 @@
 			files = (
 				5B3F276326587E10003C03E7 /* LaunchScreen.storyboard in Resources */,
 				5B3F276026587E10003C03E7 /* Assets.xcassets in Resources */,
+				5BC2E2A82658A97800F83EC7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
