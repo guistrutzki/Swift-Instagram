@@ -34,6 +34,9 @@
 		5BC2E28B2658A4D000F83EC7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E28A2658A4D000F83EC7 /* AnalyticsManager.swift */; };
 		5BC2E28E2658A4DF00F83EC7 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E28D2658A4DF00F83EC7 /* HapticsManager.swift */; };
 		5BC2E2A82658A97800F83EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC2E2A72658A97800F83EC7 /* GoogleService-Info.plist */; };
+		5BC2E2AC2658BD6A00F83EC7 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E2AB2658BD6A00F83EC7 /* SignInHeaderView.swift */; };
+		5BC2E2B02658BF0700F83EC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E2AF2658BF0700F83EC7 /* Extensions.swift */; };
+		5BC2E2B3265CBDC200F83EC7 /* IGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2E2B2265CBDC200F83EC7 /* IGTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		5BC2E28A2658A4D000F83EC7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		5BC2E28D2658A4DF00F83EC7 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		5BC2E2A72658A97800F83EC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BC2E2AB2658BD6A00F83EC7 /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
+		5BC2E2AF2658BF0700F83EC7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5BC2E2B2265CBDC200F83EC7 /* IGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextField.swift; sourceTree = "<group>"; };
 		A95D6B4078CD304CCDAC31C8 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B276716C2C698F5DB1239EDE /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				5B3F276126587E10003C03E7 /* LaunchScreen.storyboard */,
+				5BC2E2AB2658BD6A00F83EC7 /* SignInHeaderView.swift */,
+				5BC2E2B2265CBDC200F83EC7 /* IGTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				5B3F275F26587E10003C03E7 /* Assets.xcassets */,
 				5B3F275626587E0E003C03E7 /* AppDelegate.swift */,
 				5B3F275826587E0E003C03E7 /* SceneDelegate.swift */,
+				5BC2E2AF2658BF0700F83EC7 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -342,12 +351,15 @@
 				5BC2E2672658A3C800F83EC7 /* SignUpViewController.swift in Sources */,
 				5BC2E2762658A44D00F83EC7 /* User.swift in Sources */,
 				5BC2E2592658A2F700F83EC7 /* NotificationsViewController.swift in Sources */,
+				5BC2E2AC2658BD6A00F83EC7 /* SignInHeaderView.swift in Sources */,
 				5BC2E2732658A42700F83EC7 /* SettingsViewController.swift in Sources */,
+				5BC2E2B3265CBDC200F83EC7 /* IGTextField.swift in Sources */,
 				5BC2E2852658A4A800F83EC7 /* DatabaseManager.swift in Sources */,
 				5BC2E27C2658A46E00F83EC7 /* Relationship.swift in Sources */,
 				5BC2E2792658A45B00F83EC7 /* Post.swift in Sources */,
 				5BC2E2822658A49900F83EC7 /* AuthManager.swift in Sources */,
 				5BC2E2632658A3BA00F83EC7 /* SignInViewController.swift in Sources */,
+				5BC2E2B02658BF0700F83EC7 /* Extensions.swift in Sources */,
 				5BC2E25C2658A30A00F83EC7 /* ProfileViewController.swift in Sources */,
 				5B3F275726587E0E003C03E7 /* AppDelegate.swift in Sources */,
 				5B3F275926587E0E003C03E7 /* SceneDelegate.swift in Sources */,
